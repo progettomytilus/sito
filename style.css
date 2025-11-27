@@ -62,7 +62,8 @@
 @layer colors {
   :root {
     --c-white: hsl(0, 0%, 100%);
-    --c-yellow: hsl(40, 97%, 58%);
+    /* --c-yellow: hsl(40, 97%, 58%); */
+    --c-off-white: hsl(51, 24%, 94%);
     --c-xdark-navy: hsl(215, 14%, 23%);
     --c-dark-navy: hsl(216, 17%, 35%);
     --c-dim-grey: hsl(217, 12%, 62%);
@@ -177,12 +178,14 @@
 @layer button {
   .button {
     display: block;
-    background: var(--c-yellow);
+    /* background: var(--c-yellow); */
+    background: var(--c-off-white);
     width: fit-content;
     padding: 12px 38px;
     color: var(--c-xdark-navy);
     font-family: var(--ff-mono);
-    border: 3px solid var(--c-yellow);
+    /* border: 3px solid var(--c-yellow); */
+    border: 3px solid var(--c-off-white);
     transition: 150ms ease-in-out;
     transition-property: color, border-color, background-color;
 
@@ -869,7 +872,8 @@
 
       &:hover {
         .footer-logo path {
-          fill: var(--c-yellow);
+          /* fill: var(--c-yellow); */
+          fill: var(--c-off-white);
         }
       }
     }
@@ -900,7 +904,8 @@
       transition: color 150ms ease-in-out;
 
       &:hover {
-        color: var(--c-yellow);
+        /* color: var(--c-yellow); */
+        color: var(--c-off-white);
       }
     }
 
