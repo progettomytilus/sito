@@ -380,6 +380,7 @@
       color: var(--c-white);
       translate: 0 -24px;
       text-align: center;
+      color: #F4F3ED;
 
       @media (width >= calc(700 / 16 * 1rem)) {
         max-width: 70%;
@@ -560,6 +561,7 @@
     .feature-sm-img {
       width: 56px;
       height: 56px;
+      border-radius: 50%;
 
       @media (width >= calc(700 / 16 * 1rem)) and (width < calc(1000 / 16 * 1rem)) {
         width: 96px;
