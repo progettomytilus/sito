@@ -380,7 +380,6 @@
       color: var(--c-white);
       translate: 0 -24px;
       text-align: center;
-      color: #F4F3ED;
 
       @media (width >= calc(700 / 16 * 1rem)) {
         max-width: 70%;
